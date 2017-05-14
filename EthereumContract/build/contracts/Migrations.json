@@ -1,0 +1,133 @@
+{
+  "contract_name": "Migrations",
+  "abi": [
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "new_address",
+          "type": "address"
+        }
+      ],
+      "name": "upgrade",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "last_completed_migration",
+      "outputs": [
+        {
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": true,
+      "inputs": [],
+      "name": "owner",
+      "outputs": [
+        {
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "constant": false,
+      "inputs": [
+        {
+          "name": "completed",
+          "type": "uint256"
+        }
+      ],
+      "name": "setCompleted",
+      "outputs": [],
+      "payable": false,
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "payable": false,
+      "type": "constructor"
+    }
+  ],
+  "unlinked_binary": "0x6060604052341561000c57fe5b5b60008054600160a060020a03191633600160a060020a03161790555b5b6101a0806100396000396000f300606060405263ffffffff60e060020a6000350416630900f0108114610042578063445df0ac146100605780638da5cb5b14610082578063fdacd576146100ae575bfe5b341561004a57fe5b61005e600160a060020a03600435166100c3565b005b341561006857fe5b61007061013d565b60408051918252519081900360200190f35b341561008a57fe5b610092610143565b60408051600160a060020a039092168252519081900360200190f35b34156100b657fe5b61005e600435610152565b005b6000805433600160a060020a03908116911614156101375781905080600160a060020a031663fdacd5766001546040518263ffffffff1660e060020a02815260040180828152602001915050600060405180830381600087803b151561012557fe5b6102c65a03f1151561013357fe5b5050505b5b5b5050565b60015481565b600054600160a060020a031681565b60005433600160a060020a039081169116141561016f5760018190555b5b5b505600a165627a7a72305820ac202849a18422f85547a0242bae771034c0f55a7fb704f4171e2c80cf50d3f40029",
+  "networks": {
+    "1494656047580": {
+      "events": {},
+      "links": {},
+      "address": "0xfab1231bf7e3f0e1e9f2bd438fdda108e155af49",
+      "updated_at": 1494661237893
+    },
+    "1494672830713": {
+      "events": {},
+      "links": {},
+      "address": "0x3e004e1e64fe39a7352766c2b646219ebdc503b2",
+      "updated_at": 1494672858550
+    },
+    "1494676698714": {
+      "events": {},
+      "links": {},
+      "address": "0x050f833f05ec1b7db45dada168767aa30ffee305",
+      "updated_at": 1494676803695
+    },
+    "1494736611237": {
+      "events": {},
+      "links": {},
+      "address": "0x280ea019335c8ceda13168ea2fa6af09ea3bdee9",
+      "updated_at": 1494738776422
+    },
+    "1494747492103": {
+      "events": {},
+      "links": {},
+      "address": "0x61365a8942ce66f5c8516ba629fed542f58a1e4c",
+      "updated_at": 1494747763180
+    },
+    "1494748357125": {
+      "events": {},
+      "links": {},
+      "address": "0x8b043c503279b039a2730e26ffee863a963866fd",
+      "updated_at": 1494748382715
+    },
+    "1494749272364": {
+      "events": {},
+      "links": {},
+      "address": "0xf7f865066599ab270c5dd9bac183d498b358689d",
+      "updated_at": 1494753282542
+    },
+    "1494755331624": {
+      "events": {},
+      "links": {},
+      "address": "0x5b7eb2bee51a0db7ebcfc18f8dc21f2e3abc4037",
+      "updated_at": 1494755358946
+    },
+    "1494756264486": {
+      "events": {},
+      "links": {},
+      "address": "0x969a0f61dc7f6b966bc34fb3a6caad87ebcc5d87",
+      "updated_at": 1494756295078
+    },
+    "1494756871723": {
+      "events": {},
+      "links": {},
+      "address": "0xe8496ba5b4e4cafeb731e708b2ed40d57349db59",
+      "updated_at": 1494756919100
+    },
+    "1494757008364": {
+      "events": {},
+      "links": {},
+      "address": "0x4ea050233ee2b36b784083d7a95d43440f952006",
+      "updated_at": 1494757038934
+    }
+  },
+  "schema_version": "0.0.5",
+  "updated_at": 1494757038934
+}
